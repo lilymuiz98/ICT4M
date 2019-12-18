@@ -58,7 +58,7 @@
 	<br>
 	<div class="reg">
 
-	<form id="reg" method="post" action="..php">
+	<form id="reg" >
 
 	<br><br>
     	<h2> Register Here</h2>
@@ -146,28 +146,32 @@
 
     	<br>
 
-
-
     	<input type="checkbox" id="ch"><span
 
     	id="ch" required> I Agree all the terms & conditions.</span><br><br>
+		
 
-    	<button onclick="mySubmit()" type="submit"
-    	id="submit" >Submit</button>
+		
+		
+		
+    	<button type="submit"
+	id="submit" ><b>Submit</b></button>
 		
 	<br>
-	<button onclick="myCancel()" type="cancel"
-    	id="cancel">Cancel</button>
-	
+	<button  type="cancel"
+	id="cancel"><b>Cancel</b></button>
+		
+	</form>
+    	</div>
+		
 <script>
-	$('mySubmit').click(function(){
+	$('submit').click(function(){
 	swal("Hello World");
 	});
 </script>
 		
 		
-    	</form>
-    	</div>	
+    		
 		
 		
 
