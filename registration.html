@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>E-CONFERENCE REGISTER</title>
-	<link rel="stylesheet" href="css/regist.css"
+	<link rel="stylesheet" href="css/regist.css">
+	<script src = "regist.js"></script>
 	<!-- for icons -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<!-- for boxes and container:-->
@@ -150,10 +151,11 @@
     	id="ch"> I Agree all the terms & conditions.</span><br><br>
 
     	<button type="submit"
-    	id="submit">Submit</button>
+    	id="submit" onclick="mySubmit()">Submit</button>
+		
 	<br>
 	<button type="cancel"
-    	id="cancel">Cancel</button>
+    	id="cancel" onclick="myCancel()">Cancel</button>
 		
     	</form>
     	</div>	
