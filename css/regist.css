@@ -202,7 +202,8 @@ li {
 }
 
 .cancel {
-    background-color: #f44336;
+  padding: 14px 20px;
+  background-color: #f44336;
 }
 
 
