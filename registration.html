@@ -4,6 +4,7 @@
 	<title>E-CONFERENCE REGISTER</title>
 	<link rel="stylesheet" href="css/regist.css">
 	<script type="text/javascript" src='regist.js'></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<!-- for icons -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<!-- for boxes and container:-->
@@ -151,12 +152,12 @@
 
     	id="ch" required> I Agree all the terms & conditions.</span><br><br>
 
-    	<button type="submit"
-    	id="submit" onclick="mySubmit()">Submit</button>
+    	<button onclick="mySubmit()" type="submit"
+    	id="submit" >Submit</button>
 		
 	<br>
-	<button type="cancel"
-    	id="cancel" onclick="myCancel()">Cancel</button>
+	<button onclick="myCancel()" type="cancel"
+    	id="cancel">Cancel</button>
 		
     	</form>
     	</div>	
