@@ -85,7 +85,7 @@ body, html {
 }
 
 body{
-    background-image:url(3.jpg);
+    background-color : green);
     background-repeat: no-repeat;
     background-size:100%;
 }
