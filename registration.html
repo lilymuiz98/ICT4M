@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>E-CONFERENCE REGISTER</title>
-	<link rel="stylesheet" href="css/regist.css">
+	<script src="jquery-2.1.4.js"></script>
 	<script type="text/javascript" src='regist.js'></script>
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<!-- for icons -->
@@ -158,13 +158,19 @@
 	<br>
 	<button onclick="myCancel()" type="cancel"
     	id="cancel">Cancel</button>
+	
+<script>
+	$('mySubmit').click(function(){
+	swal("Hello World");
+	});
+</script>
+		
 		
     	</form>
     	</div>	
 		
 		
-    	</form>
-    	</div>
+
 
     	<div class="footer">
 
