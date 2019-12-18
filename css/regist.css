@@ -185,7 +185,7 @@ label{
     border-radius:3px;
 }
 
-#submit{
+.submit{
     width:300px;
     outline:0;
     padding:5px;
@@ -201,7 +201,7 @@ li {
     padding: 3px;
 }
 
-#cancel {
+.cancel {
    width:300px;
     outline:0;
     padding:5px;
