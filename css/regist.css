@@ -201,6 +201,11 @@ li {
     padding: 3px;
 }
 
+.cancel {
+    background-color: #f44336;
+}
+
+
 .footer {
     background: #333;
     color: white;
