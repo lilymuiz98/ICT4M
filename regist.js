@@ -1,5 +1,5 @@
 function mySubmit() {
-  alert(" Congratulation ! your registration completed. Thank you.");
+  swal("Good job!", "You clicked the button!", "success");;
   
  function myCancel() {
-  alert(" Please complete the registration form.");
+ swal("Good job!", "You clicked the button!", "success");;
