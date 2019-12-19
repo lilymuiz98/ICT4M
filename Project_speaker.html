@@ -1,67 +1,63 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="css/speaker_style.css">
-	 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <!-- for boxes and container:-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta charset="utf-8">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+  <link rel="stylesheet" href="css/speaker_style.css">
     <title>Keynote Speaker</title>
   </head>
   <body>
-    
-<div class="navbar">
-	<div class="logo">
-	<a href="index.html">
-	<img src="images/ICT4M logo.png" alt="logoict4m">
-	</a>
-	</div>
-	<div class="nav">
-	<a href="index.html">ICT4M</a>
-	<div class="dropdown-submission">
-	<button class="submissiondropbtn">SUBMISSION
-	</button>
-	<div class="submission-content">
-	<a href="callforpaper.html">CALL FOR PAPERS</a>
-	<a href="Submission Guidelines.html">SUBMISSION GUIDELINES</a>
-	</div>
-	</div>
-	<div class="dropdown-program">
-	<button class="programdropbtn">PROGRAM
-	</button>
-	<div class="program-content">
-	<a href="Conference Program.html">CONFERENCE PROGRAM</a>
-	<a href="parallelpage.html">PARALLEL SESSION</a>
-	<a href="#">KEYNOTE SPEAKER</a>
-	</div>
-	</div>
-	<div class="dropdown-fees">
-	<button class="feesdropbtn">FEES & REGISTRATION
-	</button>
-	<div class="fees-content">
-	<a href="prices.html"> FEES</a>
-<a href="registration.html">REGISTRATION </a>
-	</div>
-	</div>
-	</div>
-	
-	</div>
-
-
-
+    <div class="navbar">
+      <div class="logo">
+        <a href="#logo">
+<img src="ICT4M logo.png" alt="logoict4m">
+        </a>
+      </div>
+    <div class="nav">
+      <a href="#">ICT4M</a>
+      <div class="dropdown-submission">
+        <button class="submissiondropbtn">SUBMISSION
+        </button>
+        <div class="submission-content">
+          <a href="#">CALL FOR PAPERS</a>
+          <a href="#">SUBMISSION GUIDELINES</a>
+        </div>
+        </div>
+        <div class="dropdown-program">
+          <button class="programdropbtn">PROGRAM
+          </button>
+          <div class="program-content">
+            <a href="#">CONFERENCE PROGRAM</a>
+            <a href="#">PARALLEL SESSION</a>
+            <a href="#">KEYNOTE SPEAKER</a>
+          </div>
+        </div>
+        <div class="dropdown-fees">
+          <button class="feesdropbtn">FEES & REGISTRATION
+          </button>
+          <div class="fees-content">
+            <a href="#">CONFERENCE FEES</a>
+          </div>
+        </div>
+    </div>
+    </div>
     <div class="hero-image">
     <div class="hero-text">
-      <h1 style="font-size:50px">KEYNOTE SPEAKER</h1>
-	    <p>They are among the best speakers and you could benefit a lot from them
+      <h1 style="font-size:50px">Keynote Speaker</h1>
+      <p>They are among the best speakers and you could benefit a lot from them
          by listening to their speech. </p>
-      <button onclick="window.location.href = 'registration.html';">Register Now</button>
+ <button onclick="window.location.href = 'registration.html';">Register Now</button>
     </div>
   </div>
 </div>
     <div class="home">
   <h2>Keynote Speech</h2>
   <img src="images/speaker1.jpg" alt="speaker1" class="image2">
-  <div class="box1">
+  <div class="box">
     <h3>TAN SRI PROF DR MOHD KAMAL HASSAN</h3>
     <ul>
       <li>Muslim academic and Islamic scholar, specializing in contemporary
@@ -69,11 +65,28 @@
       <li>Rector of the International Islamic University Malaysia (IIUM)
          from 1998 to 2006.</li>
     </ul>
-    <a href="https://en.wikipedia.org/wiki/Mohd_Kamal_Hassan" class="button">READ MORE</a>
+    <button class="modal-button" href="#myModal1">READ MORE</button>
+    <div id="myModal1" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h4>PROFILE OF TAN SRI PROF DR MOHD KAMAL HASSAN</h4>
+        </div>
+        <div class="modal-body">
+          <div class="fotorama">
+            <img src="images/pic1.png">
+            <img src="images/pic2.png">
+          </div>
+        </div>
+        </div>
+      </div>
   </div>
+
   <h2>Plenary Speech 1</h2>
   <img src="images/speaker2.jpg" alt="speaker2" class="image3">
-<div class="box2">
+<div class="box">
   <h3>DATUK DR MOHD DAUD BAKAR</h3>
   <ul>
     <li>Founder and Executive Chairman of Amanie Group.</li>
@@ -81,11 +94,33 @@
       Central Bank of Malaysia, the Securities Commission of Malaysia,
       the Labuan Financial Services Authority, and the First Abu Dhabi Bank.</li>
   </ul>
- <a href="https://amanieadvisors.com/new/dr-mohd-daud-bakar/" class="button">READ MORE</a>
+  <!-- Trigger/Open The Modal -->
+<button class="modal-button" href="#myModal2">READ MORE</button>
+
+<!-- The Modal -->
+<div id="myModal2" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h4>PROFILE OF DATUK DR MOHD DAUD BAKAR</h4>
+    </div>
+    <div class="modal-body">
+      <div class="fotorama">
+        <img src="images/D1.png">
+        <img src="images/D2.png">
+      </div>
+
+    </div>
+    </div>
+  </div>
 </div>
+
+
 <h2>Plenary Speech 2</h2>
 <img src="images/speaker3.png" alt="speaker3" class="image4">
-<div class="box3">
+<div class="box">
   <h3>PROF. DATO’ IR. DR. WAN RAMLI WAN DAUD</h3>
 <ul>
 
@@ -93,12 +128,62 @@
 <li>Professor of Chemical Engineering at Department of Chemical & Process Engineering,
  Faculty of Engineering & Built Environment, Universiti Kebangsaan Malaysia.</li>
 </ul>
-<a href="http://www.ukm.my/somche2015/biography-prof-dato-ir-dr-wan-ramli-wan-daud/" class="button">READ MORE</a>
+<button class="modal-button" href="#myModal3">READ MORE</button>
+<div id="myModal3" class="modal">
 
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h4>PROFILE OF PROF. DATO’ IR. DR. WAN RAMLI WAN DAUD</h4>
+    </div>
+    <div class="modal-body">
+
+      <!-- Add images to <div class="fotorama"></div> -->
+<div class="fotorama">
+  <img src="images/p1.png">
+  <img src="images/p2.png">
+</div>
+
+    </div>
+    </div>
+  </div>
 </div>
     </div>
-	
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script type="text/javascript" src="projectSpeaker.js">
+
+    </script>
+    <div class="footer">
+          <div class="footer-content">
+            <!-- NOTE: logo and socmed -->
+            <div class="footer-section col1">
+              <div class="logos">
+                <img src="http://www.iium.edu.my/original/img/iium-logo-muted.png" width="70%" height="70%" alt="IIUM">
+                <br><p>Kulliyyah of Information and Communication Technology (KICT),<br>
+                  International Islamic University Malaysia (IIUM),<br>
+                  Jalan Gombak, 53100 Kuala Lumpur, Malaysia.</p>
+              </div>
+              <div class="social">
+                <a href="https://www.facebook.com/OfficialIIUM"><i class="fa fa-facebook-square fa-2x"></i></a>
+                <a href="https://twitter.com/OfficialIIUM"><i class="fa fa-twitter-square fa-2x"></i></a>
+                <a href="https://www.youtube.com/channel/UCminxQyYR5LjlZxlXGyzGyg"><i class="fa fa-youtube-square fa-2x"></i></a>
+                <a href="https://www.instagram.com/officialiium"><i class="fa fa-instagram fa-2x"></i></a>
+              </div>
+            </div>
+            <div class="footer-section col2">
+          <h3>Quick Links</h3>
+          <br>
+          <ul class="quick-links">
+            <a href="homepage.html"><li>Home</li></a>
+            <a href="submission.html"><li>Call For Paper</li></a>
+            <a href="subguide.html"><li>Submission Guidelines</li></a>
+            <a href="speaker.html"><li>Keynote Speaker</li></a>
+            <a href="pasess.html"><li>Parallel Session</li></a>
+            <a href="price.html"><li>Conference Fees</li></a>
+            <a href="registration.html"><li>Registration</li></a>
+          </ul>
+        </div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <script>
 //Get the button
 var mybutton = document.getElementById("myBtn");
@@ -117,80 +202,25 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 </script>
-
-    <div class="footer">
-
-          <div class="footer-content">
-            <!-- NOTE: logo and socmed -->
-            <div class="footer-section col1">
-
-              <div class="logos">
-                <img src="http://www.iium.edu.my/original/img/iium-logo-muted.png" width="70%" height="70%" alt="IIUM">
-                <br><p>Kulliyyah of Information and Communication Technology (KICT),<br>
-                  International Islamic University Malaysia (IIUM),<br>
-                  Jalan Gombak, 53100 Kuala Lumpur, Malaysia.</p>
-              </div>
-
-              <div class="social">
-                <a href="https://www.facebook.com/OfficialIIUM"><i class="fa fa-facebook-square fa-2x"></i></a>
-                <a href="https://twitter.com/OfficialIIUM"><i class="fa fa-twitter-square fa-2x"></i></a>
-                <a href="https://www.youtube.com/channel/UCminxQyYR5LjlZxlXGyzGyg"><i class="fa fa-youtube-square fa-2x"></i></a>
-                <a href="https://www.instagram.com/officialiium"><i class="fa fa-instagram fa-2x"></i></a>
-              </div>
-
-            </div>
-            <div class="footer-section col2">
-
-          
-
-<h3>Quick Links</h3>
-          <br>
-          <ul class="quick-links">
-            <a href="index.html"><li>Home</li></a>
-            <a href="callforpaper.html"><li>Call For Paper</li></a>
-            <a href="Submission Guidelines.html"><li>Submission Guidelines</li></a>
-            <a href="Project_speaker.html"><li>Keynote Speaker</li></a>
-            <a href="parallelpage.html"><li>Parallel Session</li></a>
-            <a href="prices.html"><li>Conference Fees</li></a>
-            <a href="registration.html"><li>Registration</li></a>
-          </ul>
-
-
-
-        </div>
-
         <!-- NOTE: contacts and address -->
         <div class="footer-section col3">
 
           <h3>Contact Us</h3>
           <br>
           <div class="contact">
-
             <span><i class="fa fa-phone"></i></span>
-
               Phone : (+603) 6421 6421<br>
               Fax : (+603) 6196 4053<br>
               Email : webmaster@iium.edu.my
-
             <br><br>
-
             <span><i class="fa fa-comments-o"></i></span>
-
               Email : ict4m@iium.edu.my <br>
               Website : https://ict4m.iium.edu.my
-
           </div>
-
         </div>
-
       <div class="footer-bottom">
         &copy; ict4m.iium.edu.my | Designed for INFO 2302
       </div>
-
     </div>
-
-
-
-
   </body>
 </html>
