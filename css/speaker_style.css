@@ -2,6 +2,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 .navbar img{
   height:50px;
@@ -12,6 +13,7 @@ body, html {
 h3, ul{
   color: black;
 }
+
 .nav{
   float: right;
 }
@@ -89,8 +91,9 @@ h3, ul{
   width: 60%;
    border-style:none;
   padding: 0px;
+
 }
-.box1,.box2,.box3{
+.box{
   position: relative;
   width: 300px;
   height: 300px;
@@ -98,7 +101,7 @@ h3, ul{
   right: 80px;
   float: right;
   padding: 10px;
-  background-color: white;
+  background-color:white ;
 }
 .image2,.image3,.image4{
   width: 300px;
@@ -107,31 +110,9 @@ h3, ul{
   object-position:60% 10%;
   border: 3px solid black;
 }
-.button {
-  background-color: #08948F;
-   border: none;
-   color: white;
-   padding: 16px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   margin: 4px 2px;
-   cursor: pointer;
-   transition-duration: 0.4s;
-}
-.button1,.button2,.button3{
-  background-color: white;
-  color: black;
-  border: 2px solid black;
-}
-.button1:hover,.button2:hover,.button3:hover {
-  background-color: #08948F;
-
-}
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-  rgba(0, 0, 0, 0.5)),url("mic.jpg");
+  rgba(0, 0, 0, 0.5)),url("images/mic.jpg");
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -149,7 +130,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 color: white;
 }
-.hero-text button {
+.hero-text button, .modal-button{
   border: none;
   outline: 0;
   display: inline-block;
@@ -159,9 +140,9 @@ color: white;
   text-align: center;
   cursor: pointer;
 }
-.hero-text button:hover {
+.hero-text button:hover,  .modal-button:hover {
   background-color: #08948F;
-  color: white;
+
 }
 
 .footer {
@@ -245,7 +226,6 @@ color: white;
     bottom: 0px;
     left: 0px;
     padding-top: 20px;
-
 }
 #myBtn {
   display: none;
@@ -270,4 +250,70 @@ color: white;
  -ms-transition: background-color 0.5s ease-in-out;
  -o-transition: background-color 0.5s ease-in-out;
  transition: background-color 0.5s ease-in-out;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #08948F;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+.fotorama{
+  data-width: 800px;
+       data-height:600px;
 }
