@@ -149,7 +149,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 color: white;
 }
-.hero-text button {
+.hero-text .button {
   border: none;
   outline: 0;
   display: inline-block;
@@ -159,7 +159,7 @@ color: white;
   text-align: center;
   cursor: pointer;
 }
-.hero-text button:hover {
+.hero-text .button:hover {
   background-color: #08948F;
   color: white;
 }
