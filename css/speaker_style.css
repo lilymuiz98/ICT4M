@@ -112,7 +112,7 @@ h3, ul{
 }
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-  rgba(0, 0, 0, 0.5)),url("images/mic.jpg");
+  rgba(0, 0, 0, 0.5)),url("mic.jpg");
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
