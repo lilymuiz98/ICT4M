@@ -71,7 +71,7 @@ body, html {
 }
 #end{
   width: 90%;
-  text-align:left;
+  margin: auto;
   line-height: 30px;
 }
 
