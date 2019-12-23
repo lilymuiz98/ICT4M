@@ -238,6 +238,13 @@ a{
   object-fit:cover;
   object-position:60% 10%;
 }
+
+.down{
+display: block;
+text-align: center;
+padding-bottom: 25px;
+}
+
 .button {
   background-color: #08948F;
    border: none;
