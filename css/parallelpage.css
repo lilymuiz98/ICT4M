@@ -185,6 +185,9 @@ a{
 .dropdown-fees:hover .feesdropbtn{
   background-color:  #08948F;
 }
+.curve{
+  border-radius: 5px;
+}
 .submission-content, .program-content, .fees-content {
   display: none;
   position: absolute;
@@ -192,6 +195,7 @@ a{
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  border-radius: 5px;	
 }
 .submission-content a,
 .program-content a,
