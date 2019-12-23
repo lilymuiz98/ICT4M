@@ -224,6 +224,7 @@ li {
   content: "";
   clear: both;
   display: table;
+  width:300px;
 }
 
 .footer {
