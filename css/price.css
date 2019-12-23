@@ -123,8 +123,10 @@ body, html {
   background-color: #555;
   color: white;
 }
-.box{
-  width : 80%;
+
+.boxs{
+  width : 100%;
+  position: absolute;
 }
 
 
