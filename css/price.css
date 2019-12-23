@@ -125,7 +125,10 @@ body, html {
 
 .boxes{
   width: 80%;
-  margin 0 auto 0 auto;
+  margin-top:0;
+margin-right:auto;
+margin-bottom:0;
+margin-left:auto;
 }
 
 
