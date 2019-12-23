@@ -225,6 +225,10 @@ li {
   clear: both;
   display: table;
   width:300px;
+  margin-top:0;
+  margin-right:auto;
+  margin-bottom:0;
+  margin-left:auto;
 }
 
 .footer {
