@@ -193,7 +193,7 @@ label{
 
 
 #submit{
-    width:200px;
+    width:150px;
     outline:0;
     padding: 19px 35px;
     color:white;
@@ -209,7 +209,7 @@ li {
 }
 
 #cancel {
-   width:200px;
+   width:150px;
     outline:0;
     padding: 19px 35px;
     border: none;
