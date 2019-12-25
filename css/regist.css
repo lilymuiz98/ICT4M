@@ -225,8 +225,7 @@ li {
   clear: both;
   display: table;
   width:400px;
-   margin-left: auto ;
-  margin-right: auto ;
+  margin-left: 60px ;
 }
 
 .footer {
